@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Test Continuous Output</title>
+     </head>
+
+     <body>
+        <p id="data"></p>
+    
+        <script>
+           function onClick() {
+               for(var i =0;i<100;i++) {
+                   document.getElementById("data").innerHTML = i;
+                   for(var j = 0; j < 100; j++) {
+                         console.log("j="+j);
+                   }
+               }
+           }
+        </script>
+        <button onclick = "onClick()">test</button>
+    </body>
+</html>
