@@ -1,0 +1,27 @@
+body{
+    margin-left: 20px;
+    background-color: gainsboro;
+    text-align: center;
+}
+p{
+    font-size:x-large;
+}
+#list{
+    display: contents;
+    border: 20px;
+    border-radius: 5px;
+    border-color: brown;
+}
+#contents{
+    background-color: bisque;
+    font-size: x-large;
+    margin:200px;
+    margin-top:00;
+}
+ol li{
+    padding: 20px;
+    border-width: 20px;
+    color: brown;
+    
+    list-style: none;
+}
