@@ -1,5 +1,5 @@
 body{
-    margin-left: 20px;
+    
     background-color: gainsboro;
     text-align: center;
 }
@@ -22,6 +22,35 @@ ol li{
     padding: 20px;
     border-width: 20px;
     color: brown;
-    
     list-style: none;
+}
+.nav{
+    text-align: justify;
+    display: contents;
+    background-image: url("door.jpg");
+}
+.list{
+    list-style: none;
+    display: flex;
+    
+}
+.list li{
+    padding: 20px;
+    scroll-behavior: smooth;
+    font-size:large;
+    opacity: 0.5;
+}
+.list li a{
+    text-decoration: none;
+    margin: 3px;
+    padding: 10px;
+    opacity: 0.5;
+    font:100;
+    color: rgb(255, 0, 0);
+}
+.const{
+    background-color:rgb(192, 187, 187) ;
+}
+.list li:hover{
+    opacity: 1.0;
 }
