@@ -1,18 +1,37 @@
-body{
-    
-    background-color: gainsboro;
+h1{
     text-align: center;
+}
+#but {
+    text-align: center;
+
+}
+
+#paragraph{
+    text-align: center;
+}
+body{
+    margin: 0;
+    background-color: gainsboro;
+    padding: 0;
 }
 p{
     font-size:x-large;
 }
 #list{
     display: contents;
-    border: 20px;
+    border: 30px solid;
     border-radius: 5px;
     border-color: brown;
 }
+#list li{
+    border: 2px solid;
+    border-radius: 10px;
+}
+#list li:hover{
+    background-color: darkgray;
+}
 #contents{
+    text-align: center;
     background-color: bisque;
     font-size: x-large;
     margin:200px;
@@ -36,7 +55,6 @@ ol li{
 }
 .list li{
     padding: 20px;
-    scroll-behavior: smooth;
     font-size:large;
     opacity: 0.5;
 }
@@ -53,4 +71,23 @@ ol li{
 }
 .list li:hover{
     opacity: 1.0;
+    background-color: gray;
+}
+#cred:hover{
+    background-color: red;
+}
+#cgreen:hover{
+    background-color: green;
+}
+h1:hover{
+    color: blueviolet;
+}
+.info{
+    margin-left: 50px;
+}
+#black:hover{
+    background-color: black;
+}
+#gray:hover{
+    background-color: gainsboro;
 }
