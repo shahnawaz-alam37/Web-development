@@ -1,4 +1,3 @@
-
 const arr=[10,20,30,40,50]
 for (let i = 0; i <=10; i++) {
     console.log(i)
@@ -26,15 +25,15 @@ for (let i = 0; i < arr.length; i++) {
     sum=sum+arr[i];
 }
 console.log(sum);
-for(let i = 0; i <= 5; i++){
+/*for(let i = 0; i <= 5; i++){
     if(i == 3){
       break
     }
     console.log(i)
 }
-  
+  */
   // 0 1 2
-
+/*
 for(let i = 0; i <= 5; i++){
     if(i == 3){
         continue
@@ -54,5 +53,5 @@ do {
   console.log(i)
   i++
 } while (i <= 5)
-
+*/
 // 0 1 2 3 4 5
