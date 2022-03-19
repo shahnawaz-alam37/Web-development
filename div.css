@@ -1,0 +1,28 @@
+#equals{
+    width: 116px;
+    height: 35px;
+    background-color:antiquewhite;
+    color:black;
+    font-weight: bold;
+}
+#num{
+    width: 56px ;
+    height: 35px;
+    background-color:antiquewhite;
+    color:black;
+    font-weight: bold;
+}
+#yput{
+    height: 23px;
+}
+#cal{
+    background-color: black;
+    padding: 25px 24px;
+    margin-left: 41%;
+    margin-right: 41%;
+    align-items: center;
+    margin-top: 70px;
+}
+body{
+    background-color: gray;
+}
