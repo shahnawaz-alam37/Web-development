@@ -13,33 +13,33 @@
     <button id="infobut" onclick="alert('Simple calculator made by Shahnawaz Alam')">info</button>
     <div id="cal">
         <div id="main0">
-            <form action="input" title="yput" name="ourinput" >
-                <input type="text" id="yput" readonly>
+            
+                <input type="text" id="yput" >
                 <button id="num" type="button" onclick="clearscreen()">AC</button>
-            </form>
+            
         </div>
         <div id="main">
-            <button id="num" type="button" value="7">7</button>
-            <button id="num" type="button" value="8">8</button>
-            <button id="num" type="button" value="9">9</button>
-            <button id="num" type="button" value="+">+</button>
+            <button id="num" type="button" value="7" onclick="display('7')">7</button>
+            <button id="num" type="button" value="8" onclick="display('8')">8</button>
+            <button id="num" type="button" value="9" onclick="display('9')">9</button>
+            <button id="num" type="button" value="+" onclick="display('+')">+</button>
         </div>
         <div id="main2">
-            <button id="num" type="button" value="4">4</button>
-            <button id="num" type="button" value="5">5</button>
-            <button id="num" type="button" value="6">6</button>
-            <button id="num" type="button" value="-">-</button>
+            <button id="num" type="button" value="4" onclick="display('4')">4</button>
+            <button id="num" type="button" value="5" onclick="display('5')">5</button>
+            <button id="num" type="button" value="6" onclick="display('6')">6</button>
+            <button id="num" type="button" value="-" onclick="display('-')">-</button>
         </div>
         <div id="main2">
-            <button id="num" type="button" value="1">1</button>
-            <button id="num" type="button" value="2">2</button>
-            <button id="num" type="button" value="3">3</button>
-            <button id="num" type="button" value="*">x</button>
+            <button id="num" type="button" value="1" onclick="display('1')">1</button>
+            <button id="num" type="button" value="2" onclick="display('2')">2</button>
+            <button id="num" type="button" value="3" onclick="display('3')">3</button>
+            <button id="num" type="button" value="*" onclick="display('*')">x</button>
         </div>
         <div id="main3">
-            <button id="equals" type="button" value="=">=</button>
-            <button id="num" type="button" value="0">0</button>
-            <button id="num" type="button" value="/">/</button>
+            <button id="equals" type="button" value="=" onclick="calculate()">=</button>
+            <button id="num" type="button" value="0" onclick="display('0')">0</button>
+            <button id="num" type="button" value="/" onclick="display('/')">/</button>
         </div>
     </div>
 </body>
