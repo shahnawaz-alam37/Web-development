@@ -12,6 +12,14 @@
     color:black;
     font-weight: bold;
 }
+#num:hover{
+    background-color: crimson;
+    color: aliceblue;
+}
+#equals:hover{
+    background-color: crimson;
+    color: aliceblue;
+}
 #yput{
     height: 23px;
 }
@@ -25,4 +33,14 @@
 }
 body{
     background-color: gray;
+}
+#infobut{
+    width: 56px ;
+    height: 35px;
+    background-color:darkcyan;
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+    float: center;
+    margin-left: 48%;
 }
