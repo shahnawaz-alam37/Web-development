@@ -8,8 +8,13 @@
     <script src="div.js"></script>
     <link rel="icon" href="cal.jpg">
     <title>Calculator</title>
+    <p id="mode">Change Mode</p>
+    <ul>
+        <li><button id="darktheme" onclick="dark()">Dark</button></li>
+        <li><button id="lighttheme" onclick="light()">Light</button></li>
+    </ul>
 </head>
-<body>
+<body id="body">
     <button id="infobut" onclick="alert('Simple calculator made by Shahnawaz Alam')">info</button>
     <div id="cal">
         <div id="main0">

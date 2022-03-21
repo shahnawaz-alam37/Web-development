@@ -1,14 +1,14 @@
 #equals{
     width: 116px;
     height: 35px;
-    background-color:antiquewhite;
+    background-color:rgb(179, 169, 156);
     color:black;
     font-weight: bold;
 }
 #num{
     width: 56px ;
     height: 35px;
-    background-color:antiquewhite;
+    background-color:rgb(179, 169, 156);
     color:black;
     font-weight: bold;
 }
@@ -33,7 +33,7 @@
     border-radius: 20px;
 }
 body{
-    background-color: gray;
+    background-color:rgb(78, 64, 64);
 }
 #infobut{
     width: 56px ;
@@ -44,4 +44,30 @@ body{
     font-weight: bold;
     float: center;
     margin-left: 48%;
+}
+#darktheme{
+    background-color: black;
+    color: aliceblue;
+    padding: 0px 0px;
+    float: left;
+    text-decoration: none;
+}
+#lighttheme{
+    text-decoration: none;
+    padding: 0px 0px;
+    float: left;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    float: right;
+    margin: 0px;
+    margin-right: 15px;
+}
+#mode{
+    margin-left: 94%;
+    color: azure;
+    background-color:black;
 }

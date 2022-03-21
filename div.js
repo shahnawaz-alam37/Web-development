@@ -9,3 +9,9 @@ function calculate(){
     q = eval(p);
     document.getElementById('yput').value=q;
 }
+function dark(){
+    document.getElementById('body').style.backgroundColor='rgb(78, 64, 64)';
+}
+function light(){
+    document.getElementById('body').style.backgroundColor='white'
+}
