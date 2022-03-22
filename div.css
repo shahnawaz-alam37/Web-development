@@ -71,3 +71,21 @@ ul{
     color: azure;
     background-color:black;
 }
+hr{
+    margin-top: 150px;
+}
+a{
+    color: rgb(64, 121, 228);
+}
+h3{
+    margin: 10px;
+}
+#h1{
+    text-align: center;
+    color: white;
+    margin-left: 76px;
+}
+#h3{
+    color: white;
+    margin: 10px;
+}
