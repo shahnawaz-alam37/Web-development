@@ -11,7 +11,11 @@ function calculate(){
 }
 function dark(){
     document.getElementById('body').style.backgroundColor='rgb(78, 64, 64)';
+    document.getElementById('h1').style.color='white';
+    document.getElementById('h3').style.color='white';
 }
 function light(){
-    document.getElementById('body').style.backgroundColor='white'
+    document.getElementById('body').style.backgroundColor='white';
+    document.getElementById('h1').style.color='black';
+    document.getElementById('h3').style.color='black';
 }
