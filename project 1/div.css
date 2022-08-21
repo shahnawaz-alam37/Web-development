@@ -69,7 +69,6 @@ ul{
 #mode{
     margin-left: 94%;
     color: azure;
-    background-color:black;
 }
 hr{
     margin-top: 150px;
@@ -88,4 +87,10 @@ h3{
 #h3{
     color: white;
     margin: 10px;
+}
+.bottom-container{
+    align-content: center;
+    padding: 22px 0px 18px ;
+    text-align: center;
+    
 }
